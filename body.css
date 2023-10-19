@@ -1,0 +1,354 @@
+.design-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.design-icons{
+    color: rgb(26, 26, 26);
+    font-size: 38px;
+    font-weight: 900;
+    font-family: Arial;
+    margin-top: 80px;
+}
+.search-input{
+    height: 40px;
+    width: 365px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.search-input::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial;
+    padding-left: 22px;
+}
+.search-button{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 40px;
+    width: 81px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.input-button{
+    display: flex;
+}
+.search{
+    display: flex;
+     margin-top: 40px;
+}
+.music-text{
+    margin-left: 30px;
+}
+.popular-now{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-family: Arial;
+    font-weight:400 ;
+    margin-top: 12px;
+}
+.popular-strong{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-family: Arial;
+    font-weight:400 ;
+    margin-top: 12px;
+    text-decoration: underline;
+}
+.icons{
+    width: 80px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+.icons-text{
+    padding-top: 11px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+}
+.gif-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 35px 7%;
+}
+.indiv-gif{
+    display: flex;
+    width: 400px;
+    gap: 8px;
+    padding: 100px 5%;
+}
+.sticker{
+    height: 80px;
+    width: 90px;
+}
+.stickerss{
+    height: 80px;
+    width: 110px;
+}
+
+.gif-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+.stickers{
+    height: 80px;
+    width: 140px;
+}
+.gif-imgs{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+/* .gif-text{
+    width: 300px;
+} */
+.gif-p{
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+.gif-pt{
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.free-icons{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 35px 7%;
+    width: 900px;
+    gap: 15px;
+}
+.free-box{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 10px;
+    height: 175px;
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.free-boxs{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 10px;
+    height: 175px;
+    width: 177px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.text-container{
+    display: flex;
+    gap: 15px;
+    padding: 0px 7%;
+}
+.free-text{
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial;
+}
+.see-styles{
+    color: gainsboro;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+    margin-top: 6px;
+}
+.free-img{
+    width: 32px;
+}
+.img-cont{
+    display: flex;
+    gap: 13px;
+}
+.img-text{
+    color: rgb(26, 26, 26);
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial;
+    padding-top: 10px ;
+}
+.free-design{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 35px 7%;
+    gap: 40px;
+}
+.design-box{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 356px;
+    gap: 12px;
+}
+.free-texts{
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial;
+    padding: 0px 7%;
+}
+.lunacy{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial;
+    color: rgb(26, 26, 26);
+}
+.graphic-design{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: Arial;
+}
+.download-button{
+    height: 40px;
+    width: 242px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+    color: rgb(26, 26, 26);
+    background-color: rgba(0, 0, 0, 0);
+}
+.download-buttons{
+    height: 40px;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+    color: rgb(26, 26, 26);
+    background-color: rgba(0, 0, 0, 0);
+}
+.figma-text{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-family: Arial;
+    height: 25px;
+    width: 300px;
+    text-decoration: underline;
+}
+.graphic-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.lunacy-container{
+    display: flex;
+    gap: 10px;
+}
+.lunacy-img{
+    height: 230px;
+    width: 361px;
+    border-radius: 12px;
+}
+.illustration-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 35px 7%;
+    gap: 60px;
+    
+}
+.illustration-box{
+    width: 542px;
+    height: 632px;
+}
+.ouch-container{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+.ouch-img{
+    width: 48px;
+    height: 48px;
+}
+.ouch-heading{
+    color: rgb(26, 26, 26) ;
+    font-size:16.3px ;
+    font-weight: 700 ;
+    font-family: Arial;
+}
+.ouch-text{
+    color: rgb(26, 26, 26) ;
+    font-size: 14px;
+    font-weight: 400 ;
+    font-family: Arial;
+}
+.illustration-img{
+    height: 542.5px;
+    width: 542.5px;
+}
+.illustration-conts{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 35px 7%;
+    gap: 60px;
+}
+.illustration-imgs{
+    height: 412px;
+    width: 1144px;
+    max-width: 1144px;
+}
+.illustration-boxs{
+    width: 412px;
+}
+.developers-cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    row-gap: 35px;
+    margin-bottom: 40px;
+}
+.developers-conts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    row-gap: 35px;
+     margin-bottom: 25px;
+}
+.dev-indiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.api-text{
+    color: rgb(26, 26, 26);
+    font-size:15px ;
+    font-weight:700 ;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.integrate-text{
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+

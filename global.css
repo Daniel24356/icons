@@ -197,73 +197,76 @@ footer {
     
    }
    .all{
-    /* width: 1250px;
-    max-width: 1250px ; */
     overflow :hidden
+   }
+   .free-icons{
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+   }
+   .free-box,
+    .free-boxs{
+    height: 195px;
+    width: 277px;
+   }
+   .gif-icons{
+    width: 900px;
+   }
+   .indiv-gif{
+    width: 300px;
+   }
+   .free-design{
+    grid-template-columns: repeat(2,1fr);
+    width: 1000px;
+   }
+   .lunacy-img{
+    width: 400px;
+   }
+   .illustration-img{
+    height: 580px;
+    width: 600px;
+   }
+   .design-box{
+    width: 400px;
    }
    .illustration-cont{
     grid-template-columns: repeat(1,1fr);
    }
-   .ill-img{
-    /* width: 1250px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   footer{
-    /* width: 1250px; */
-   }
+    .illustration-imgs{
+        width: 850px;
+    }
 }
-@media screen and (max-width:970px){
-.free-icons{
-    grid-template-columns: repeat(4,1fr);
-    gap: 12px;
-}
-.free-boxs{
-    display: none;
-}
-.free-box{
-    width: 220px;
-    height: 200px;
-}
-.free-design{
-    width: 650px;
-    gap: 20px;
-}
-.lunacy-img{
-    width: 294px;
-    height: 220px;
-}
-.gif-icons{
-    width: 600px;
-}
-.indiv-gif{
-    width: 310px;
-}
-.sticker{
-    height: 55px;
-}
-.stickers{
-    height: 55px;
-}
-.stickerss{
-    height: 55px;
-}
-.privacy-text{
-    white-space: nowrap;
-}
-
-.privacy-texts{
-white-space: wrap;
-}
-.privacy-terms{
-    flex-direction: column;
-    gap: 10px;
-}
+@media screen and (max-width:940px){
+    .gif-icons{
+        width: 800px;
+       }
+       .indiv-gif{
+        width: 250px;
+       }
+       .gif-img,
+       .gif-imgs{
+        height: 50px;
+       }
+       .free-box,
+       .free-boxs{
+       height: 145px;
+       width: 227px;
+       }
+       .design-box{
+        width: 340px;
+       }
+       .lunacy-img{
+        width: 340px;
+       }
+       .free-design{
+        width: 890px;
+       }
+       .privacy-policy{
+        gap: 290px;
+       }
 }
 @media screen and (max-width:450px){
     .design-icons{
-        width: 260px;
+        width: 360px;
     }
     .music-text{
         font-size: 22px;
@@ -305,9 +308,10 @@ white-space: wrap;
     .free-icons{
         grid-template-columns: repeat(2,1fr);
          width: 400px;
-         gap: 10px;
+         gap: 17px;
     }
-    .free-box{
+    .free-box,
+     .free-boxs{
         width: 170px;
         height: 140px;
     }
@@ -348,5 +352,24 @@ white-space: wrap;
     }
     .privacy-icons{
         gap: 20px;
+    }
+}
+@media screen and (max-width:390px){
+    .illustration-imgs{
+        width: 350px;
+        height: 280px;
+        object-fit: contain;
+    }
+    .illustration-box{
+        width: 340px;
+        height: 450px;
+    }
+    .illustration-img{
+        width: 340px;
+        height: 420px;
+        object-fit: contain;
+    }
+    .free-icons{
+        gap: 10px;
     }
 }
